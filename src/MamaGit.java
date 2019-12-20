@@ -10,6 +10,13 @@ public class MamaGit {
         System.out.println(b);
     }
 
+    public static void addition(int b, int c){
+        System.out.println("Addition of "+b+ " and "+c+ " = "+(b+c));
+
+
+    }
+
+
 
 
 
@@ -27,7 +34,7 @@ public class MamaGit {
         System.out.println(company);
         subtraction(20, 10);
         subtraction(100, 300);
-        
+        addition(10, 40);
         subtraction(100, 60);
     }
 }
